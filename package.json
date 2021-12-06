@@ -1,0 +1,26 @@
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinkumarkhude1/webScrapping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinkumarkhude1/webScrapping/issues"
+  },
+  "homepage": "https://github.com/ashwinkumarkhude1/webScrapping#readme",
+  "dependencies": {
+    "pg": "^8.7.1",
+    "puppeteer": "^11.0.0",
+    "typeorm": "^0.2.41",
+    "typescript": "^4.4.4"
+  }
+}

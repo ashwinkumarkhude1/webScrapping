@@ -1,0 +1,36 @@
+{
+  "portals": [
+    {
+      "url": "https://www.yatra.com/hotels",
+      "sourceName": "yatra",
+      "searchBoxXPath": "#BE_hotel_destination_city",
+      "searchButonXpath": "#BE_hotel_htsearch_btn",
+      "cardInitalSelector": "#result",
+      "cardno": 0,
+      "hotelName": "> div.result-details-wrapper.full > div.result-details-left > div:nth-child(1) > h2 > a",
+      "hotelPrice": "> div.result-details-wrapper.full > div.result-details-right.show-gt-768.pr > ul > li.full.hotel-price.tipsy-holder > div.hotel-price-inline > p > span > span:nth-child(2)",
+      "hotelRating": "> div.result-details-wrapper.full > div.result-details-right.show-gt-768.pr > ul > li.pr.hs-size-22.icon-pos-left-center.fs-13.trip-color.ng-scope > span.mr-5 > span",
+      "amenitiesLeft": "> div.result-details-wrapper.full > div.result-details-left > ul.full.hotel-amenities.hotel-amenities-height-auto > li:nth-child(",
+      "amenitiesRight": ") > span",
+      "noOfHotels": "//*[@class=\"hotel-name full fs-18 three-dot\"]",
+      "address": "> div.result-details-wrapper.full > div.result-details-left > ul.full.hotel-location.flex > li.hand.blue.pr.mt4 > span"
+    },
+
+    {
+      "url": "https://www.easemytrip.com/hotels/",
+      "sourceName": "easeMyTrip",
+      "searchBoxXPath": "body > div.top_bg_hp > div > div.search_pnl > div > form > div > div.htl_location > span.hp_city",
+      "searchButonXpath": "body > div.top_bg_hp > div > div.search_pnl > div > div.hp_inputBox.searchButon > input",
+      "cardInitalSelector": "#hotelListDiv > div:nth-child(",
+      "cardno": 1,
+      "hotelName": ") > div.hotel-content-wrap > div > a > div > h3 > span.hoteNme.ng-binding",
+      "hotelPrice": ") > div.hotel-content-wrap > div > div > a > div.act_price.ng-scope > span",
+      "hotelRating": ") > div.hotel-content-wrap > div > div > a > div.rvwcol.ng-scope > div.review-bg.ng-binding",
+      "amenitiesLeft": "",
+      "amenitiesRight": "",
+      "noOfHotels": "//*[@class=\"result-item ng-scope\"]",
+      "address": ") > div.hotel-content-wrap > div > a > div > div.address-cl > span"
+    }
+  ]
+}
+
